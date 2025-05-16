@@ -1,5 +1,5 @@
 import React from 'react'
-import "./header.css"
+import "./Header.css"
 import MenuItem from './MenuItem'
 import { Search } from 'lucide-react'
 const Header = () => {
