@@ -1,0 +1,47 @@
+.historyContainer {
+  /* width: 100%; */
+  padding: 40px 40px;
+  background-color: #f6f6f6; /* softer gray like the image */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 30px;
+  /* text-align: center; */
+}
+
+.gridColspan1 {
+  /* background: white; */
+  padding: 20px;
+  border-radius: 10px;
+  color: #003366; /* navy shade */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gridColspan1 h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.gridColspan1 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 5px;
+}
+
+.gridColspan1 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.gridColspan1 p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #333;
+}

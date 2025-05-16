@@ -1,0 +1,68 @@
+.upcommingMain {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0px 80px;
+}
+
+.upcomming {
+}
+.upcommingP {
+  font-size: 12px;
+  font-weight: 400;
+  color: #abafb6;
+  margin-top: -16px;
+}
+
+.upcommingExam {
+    color: #0a4984;
+}
+.upcommingExamIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.card {
+  background-color: #0F3971;
+  color: white;
+  border-radius: 16px;
+  padding: 24px;
+  width: 280px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.know-more {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.arrow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #0F3971;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}

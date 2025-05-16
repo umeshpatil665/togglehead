@@ -1,0 +1,82 @@
+.flex-justify-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Optional - add only if needed */
+}
+
+.flex-align-items-center {
+  display: flex;
+  
+  align-items: center; /* Optional - add only if needed */
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gray-200{
+ color: #e5e7eb; 
+}
+.gray-300{
+  color: #d1d5db;
+}
+
+.bg-gray-200{
+background-color: #e5e7eb;
+}
+
+.space-y-2 > * + * {
+  margin-top: 24px;
+}
+.space-y-1 > * + * {
+  margin-top: 16px;
+}
+.space-x-2 > * + * {
+  margin-left: 32px;
+  
+}
+
+.space-x-1 > * + * {
+  margin-left: 16px;
+  
+}
+
+.background{
+  background-color: #0d3c68;
+}
+
+.btnStyle{
+border-radius: 10px;
+font-size: small;
+text-align: center;
+background-color: #0a4984;
+color: #d1d5db;
+border: none;
+}
+
+.gridColspan1 {
+  grid-column: span 1 / span 1;
+}
+
+.gridColspan2 {
+  grid-column: span 2 / span 2;
+}
+
+.gridColspan3 {
+  grid-column: span 3 / span 3;
+}
+
+.gridColspan4 {
+  grid-column: span 4 / span 4;
+}
+
+.gridColspan5 {
+  grid-column: span 5 / span 5;
+}
+h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #0a4984;
+}
